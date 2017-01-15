@@ -88,7 +88,7 @@ public class TestHBase {
 		Get get = new Get(rowKey.getBytes()) ;
 		
 		Result result = table.get(get);
-		
+		System.out.println("test get");
 		for(KeyValue keyValue : result.raw())
 		{
 			System.out.println("cf:"+new String(keyValue.getFamily())+new String(keyValue.getQualifier())+"="+new String(keyValue.getValue()));
@@ -237,12 +237,12 @@ public class TestHBase {
 		// TODO Auto-generated method stub
 	//	CreateTable("test222") ;
 //		deleteRow("test","123","234");
-		TestGet("test","123");
+		TestGet("test222","123");
 //		TestScan("so","006720521","006720522");
 //		Query1("so","123686816");
 //		QueryByRowKey("so","00623152");
 //		Query3("so","37301766","34","35");
-//		Query4("so_detail","125051400");
+	//	Query4("so_detail","125051400");
 	}
 	
 	

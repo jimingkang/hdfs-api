@@ -1,4 +1,4 @@
-package com.cloudy.lesson.utils;
+package com.cloudy.mapred.utils;
 
 import java.text.DateFormat;
 import java.text.ParseException;

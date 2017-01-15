@@ -1,4 +1,4 @@
-package com.cloudy.lesson.jobs.visit;
+package com.cloudy.mapred.jobs.visit;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-import com.cloudy.lesson.utils.DateUtil;
+import com.cloudy.mapred.utils.DateUtil;
 /**
  * date          2015-09-01
  * province_id   1,2,3...

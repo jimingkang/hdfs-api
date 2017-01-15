@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cloudy.lesson.base;
+package com.cloudy.mapred.base;
 
 import java.io.IOException;
 

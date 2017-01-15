@@ -1,4 +1,4 @@
-package com.cloudy.lesson.jobs.visit;
+package com.cloudy.mapred.jobs.visit;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
@@ -10,8 +10,8 @@ import org.apache.hadoop.util.ToolRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.cloudy.lesson.base.AbstractJob;
-import com.cloudy.lesson.base.JobUtil;
+import com.cloudy.mapred.base.AbstractJob;
+import com.cloudy.mapred.base.JobUtil;
 
 public final class VisitJob extends AbstractJob {
 

@@ -1,4 +1,4 @@
-package com.cloudy.lesson.jobs.wordcount;
+package com.cloudy.mapred.jobs.wordcount;
 
 import java.io.IOException;
 

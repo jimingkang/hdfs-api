@@ -1,4 +1,4 @@
-package com.cloudy.lesson.jobs.visit;
+package com.cloudy.mapred.jobs.visit;
 
 import java.io.IOException;
 import java.util.HashMap;

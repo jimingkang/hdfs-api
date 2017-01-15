@@ -32,5 +32,18 @@
     <artifactId>hbase-client</artifactId>  
     <version>0.96.1-hadoop2</version>  
 </dependency>  
+<dependency>
+    <groupId>org.apache.kafka</groupId>
+    <artifactId>kafka-clients</artifactId>
+    <version>0.10.1.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.kafka</groupId>
+    <artifactId>kafka_2.10</artifactId>
+    <version>0.10.1.1</version>
+</dependency>
+
+
   </dependencies>
 </project>
