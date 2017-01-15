@@ -1,4 +1,4 @@
-package com.cloudy.storm;
+package com.cloudy.hbase;
 
 import java.io.IOException;
 import java.util.ArrayList;

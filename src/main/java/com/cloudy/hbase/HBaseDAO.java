@@ -1,4 +1,4 @@
-package com.cloudy.storm;
+package com.cloudy.hbase;
 
 import java.util.List;
 

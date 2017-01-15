@@ -18,7 +18,7 @@
 <configuration>
  <property>
  <name>fs.defaultFS</name>
- <value>hdfs://192.168.1.113:9000</value>
+ <value>hdfs://192.168.1.104:9000</value>
  </property> 
 </configuration>
 

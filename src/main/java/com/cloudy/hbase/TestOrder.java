@@ -1,4 +1,4 @@
-package com.cloudy.storm;
+package com.cloudy.hbase;
 
 
 import java.util.List;
@@ -9,7 +9,7 @@ import org.apache.hadoop.hbase.client.Result;
 import org.jboss.netty.util.internal.StringUtil;
 
 
-public class Test {
+public class TestOrder {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
