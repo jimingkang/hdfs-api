@@ -1,4 +1,5 @@
-/*package com.cloudy.lesson.order;
+package com.cloudy.storm;
+
 
 import java.util.List;
 
@@ -7,7 +8,6 @@ import org.apache.hadoop.hbase.KeyValue;
 import org.apache.hadoop.hbase.client.Result;
 import org.jboss.netty.util.internal.StringUtil;
 
-import com.dao.impl.HBaseDAOImp;
 
 public class Test {
 
@@ -41,9 +41,9 @@ public class Test {
 //		List<Result> list = dao.getRows("test", "r23419",new String[]{"name"}) ;
 //		List<Result> list = dao.getRows("test", "r234198","r2341996") ;
 		
-		*//**
-		 * 查询1：查询个人历史订单；
-		 *//*
+		
+		 //* 查询1：查询个人历史订单；
+		
 		List<Result> list = dao.getRows("order_his_idx", "17291404");
 		System.out.println("list.size="+list.size());
 		for(Result rs : list)
@@ -74,9 +74,9 @@ public class Test {
 		}
 //		Result rs = dao.getOneRow("test", "testrow");
 		
-		*//**
-		 * 查询2：查询某个历史订单的明细信息；
-		 *//*
+
+		 //查询2：查询某个历史订单的明细信息；
+		 
 		
 		List<Result> orderDtls = dao.getRows("so_detail", "314295453511152");
 		
@@ -94,4 +94,3 @@ public class Test {
 	
 	
 }
-*/
