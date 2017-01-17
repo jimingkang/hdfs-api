@@ -29,7 +29,7 @@ public class Producer extends Thread {
 
 	public Producer(String topic) {
 		props.put("serializer.class", "kafka.serializer.StringEncoder");// 字符串消息
-		props.put("metadata.broker.list","192.168.1.104:9092");
+		props.put("metadata.broker.list","192.168.1.116:9092");
 		// Use random partitioner. Don't need the key type. Just set it to
 		// Integer.
 		// The message is of type String.
@@ -49,8 +49,8 @@ public class Producer extends Thread {
 		String[] hosts = { "www.taobao.com" };
 		String[] session_id = { "ABYH6Y4V4SCVXTG6DPB4VH9U123", "XXYH6YCGFJYERTT834R52FDXV9U34", "BBYH61456FGHHJ7JL89RG5VV9UYU7",
 				"CYYH6Y2345GHI899OFG4V9U567", "VVVYH6Y4V4SFXZ56JIPDPB4V678" };
-		String[] time = { "2014-01-07 08:40:50", "2014-01-07 08:40:51", "2014-01-07 08:40:52", "2014-01-07 08:40:53", 
-				"2014-01-07 09:40:49", "2014-01-07 10:40:49", "2014-01-07 11:40:49", "2014-01-07 12:40:49" };
+		String[] time = { "2012-01-07 08:40:50", "2012-01-07 08:40:51", "2012-01-07 08:40:52", "2012-01-07 08:40:53", 
+				"2012-01-07 09:40:49", "2012-01-07 10:40:49", "2012-01-07 11:40:49", "2012-01-07 12:40:49" };
 		String[] province_id = { "1","2","3","4","5","6" };
 		
 		
@@ -63,7 +63,7 @@ public class Producer extends Thread {
 	}
 
 	public static void main(String[] args) {
-		Producer producerThread = new Producer("log");
+		Producer producerThread = new Producer(KafkaProperties.TOPIC);
 		producerThread.start();
 	}
 }

@@ -2,9 +2,9 @@ package com.cloudy.kafka;
 
 public interface KafkaProperties
 {
-  final static String zkConnect = "192.168.1.104:2181";
-  final static String broker_list = "192.168.1.104:9092" ;
-	final static String hbase_zkList = "192.168.1.104:2181";
+  final static String zkConnect = "192.168.1.116:2181";
+  final static String broker_list = "192.168.1.116:9092" ;
+	final static String hbase_zkList = "192.168.1.116:2181";
 	
 //  final static String zkConnect   = "192.168.113.80:2181,192.168.113.81:2181,192.168.113.82:2181";
 //  final static String broker_list = "192.168.113.80:9092,192.168.113.81:9092,192.168.113.82:9092" ;

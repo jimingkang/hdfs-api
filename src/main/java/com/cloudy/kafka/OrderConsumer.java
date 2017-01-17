@@ -32,7 +32,7 @@ public class OrderConsumer extends Thread {
 		props.put("zookeeper.session.timeout.ms", "4000");
 		props.put("zookeeper.sync.time.ms", "2000");
 		props.put("auto.commit.interval.ms", "10000");//
-		props.put("auto.offset.reset","smallest");//
+		//props.put("auto.offset.reset","smallest");//
 
 		return new ConsumerConfig(props);
 
